@@ -2,7 +2,7 @@
 
 ----------
 
-# Protocol Template
+# NOAA PMEL OME Parada universal 16S PCR Protocol
 
 
 ### Quick Links:
