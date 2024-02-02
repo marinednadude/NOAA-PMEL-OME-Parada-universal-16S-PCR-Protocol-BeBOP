@@ -1,5 +1,5 @@
 # NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP
-See [NOAA-PMEL-OME-COI-PCR-Protocol-BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME-COI-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-COI-PCR-Protocol-BeBOP.md) for detailed protocol.  
+See [NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md) for detailed protocol.  
 This is verion 0.0 and is draft document that has not been finalized or version controlled.
 
 ## Disclaimer
