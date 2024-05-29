@@ -22,9 +22,9 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 | project  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program Protocols |
 | purpose  | PCR [OBI:0000415] |
 | analyses  | PCR [OBI:0000415] |
-| geographic location  | North East Pacific Ocean [GAZ:00013765] |
-| broad-scale environmental context  | oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447] |
-| local environmental context  | oceanic epipelagic zone biome [ENVO:01000035] |
+| geographic location  | North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323] |
+| broad-scale environmental context  | oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine benthic biome [ENVO:01000024] |
+| local environmental context  | oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024] |
 | environmental medium  | sea water [ENVO:00002149] , DNA extraction [OBI:0000257] |
 | target  | 16S rRNA sequencing assay targeting V4-V5 region [EUPATH:0000813],  Bacterial 16S RNA [NCIT:C105370] |
 | creator  | [Shannon Brown](https://github.com/Brown-NOAA), [Han Weinrich](https://github.com/HanWeinrich), and [Zachary Gold](https://github.com/marinednadude) |
@@ -83,7 +83,7 @@ This amplification protocol is accessible to most molecular biology labs.
 
 ## Spatial coverage and environment(s) of relevance
 
-This protocol has been used to amplify extracted DNA from thousands of filtered sea water samples taken from Northeastern Pacific coastal stations off the western coast of North America (primarily off California, Oregon, Washington,and Alaska).
+This protocol has been used to amplify extracted DNA from thousands of filtered sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska).
 
 ## Personnel Required
 
@@ -139,7 +139,7 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 | Nitrile gloves | Powder Free Nitrile Gloves | Fisher Scientific | 4 | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use (10% bleach followed by 70% EtOH) |
 |Trash bags for BSC|Teivio 1.2 Gallon 360 Counts Strong Trash Bags|Teivio|1|Can be substituted with generic.|
 | Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space|
-| Writing utensils | Sharpies and pens | Generic | 2-4 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
+| Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
 |**Optional Equipment**|||			
 |Repeater Pipetter: 10-300  μL|E1-ClipTip electronic single channel pipette, 10-300 μL|ThermoFisher|	1|Can be substituted with generic. Not required but reduces protocol time.|
 | 300 μl repeater pipette tips | ClipTip 300 filtered sterile tips| Thermo Scientific| 2| Can be substituted with generic. Must fit repeater pipette. Must be sterile and filtered. |
@@ -147,12 +147,12 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 | UV crosslinker | UV crosslinker AH (115V), 234100 | Boekel Scientific  | 1 | Recommended not required; can be substituted. |
 | **Chemicals** |
 | PCR master mix 2x|AmpliTaq Gold Fast PCR master mix | Applied Biosystems | 1040 μl per plate | Store at 4°C. |
-| Forward primer | Custom oligo | IDT |78 μl per plate|Store at -20°C.|
-| Reverse primer| Custom oligo | IDT | 78 μl per plate |Store at -20°C.
-| Nuclease free water | UltraPure DNase/RNase-free distilled water | ThermoFisher | 1196 μl per plate| |
-| Positive control| gBlocks HiFi Gene Fragments | IDT | 2 μl per plate| Store at -20°C |
-| 70% EtOH | Molecular grade ethanol| Generic | 20 mL | |
-| 10% bleach| Hypochlorite bleach |Clorox| 10 mL | Remake every ~5 days as bleach decomposes quickly at 10% concentration. |
+| Forward primer | Custom oligo | IDT |78 |(μl per plate) Store at -20°C.|
+| Reverse primer| Custom oligo | IDT | 78|(μl per plate) Store at -20°C.
+| Nuclease free water | UltraPure DNase/RNase-free distilled water | ThermoFisher | 1196|(μl per plate) |
+| Positive control| gBlocks HiFi Gene Fragments | IDT | 2 |(μl per plate) Store at -20°C |
+| 70% EtOH | Molecular grade ethanol| Generic | 20 | (mL)|
+| 10% bleach| Hypochlorite bleach |Clorox| 10 |(mL) Remake every ~5 days as bleach decomposes quickly at 10% concentration. |
 
 ------
 # STANDARD OPERATING PROCEDURE
