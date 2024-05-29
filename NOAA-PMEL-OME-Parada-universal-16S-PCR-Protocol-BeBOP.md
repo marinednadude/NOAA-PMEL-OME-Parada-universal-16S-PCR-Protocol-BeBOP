@@ -26,7 +26,7 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 | broad-scale environmental context  | oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447] |
 | local environmental context  | oceanic epipelagic zone biome [ENVO:01000035] |
 | environmental medium  | sea water [ENVO:00002149] , DNA extraction [OBI:0000257] |
-| target  | 16S rRNA sequencing assay targeting V4 region [EUPATH:0000813],  Bacterial 16S RNA [NCIT:C105370] |
+| target  | 16S rRNA sequencing assay targeting V4-V5 region [EUPATH:0000813],  Bacterial 16S RNA [NCIT:C105370] |
 | creator  | [Shannon Brown](https://github.com/Brown-NOAA), [Han Weinrich](https://github.com/HanWeinrich), and [Zachary Gold](https://github.com/marinednadude) |
 | materials required  | agarose gel electrophoresis system [OBI:0001134] , PCR instrument [OBI:0000989] |
 | skills required  | sterile technique, pipetting skills, and standard molecular technique |
@@ -69,9 +69,9 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 
 ## Summary
 
-This protocol is for amplifying the 16S rRNA v4 region. The primers (forward: 515F-Y, reverse: 926R) were first presented in [Parada et al. 2015](https://doi.org/10.1111/1462-2920.13023) with 515-Y modified from [Quince et al. 2011](https://doi.org/10.1186/1471-2105-12-38). We note these are identical primers to those used by the [NOAA CalCOFI Ocean Genomics Program](https://www.protocols.io/view/amplicon-library-preparation-bmuck6sw?step=5&comment_id=130454) and the [Fuhrman lab](https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-j8nlkpd1g5r7/v2) albiet with a different chemistry and thermocycling conditions than both. We note that the forward primer is identical to the [Earth Microbiome Project](https://earthmicrobiome.org/protocols-and-standards/16s/), but uses a different reverse primer. The target amplicon size is 336 - 486 base pairs.
+This protocol is for amplifying the 16S rRNA v4-v5 region. The primers (forward: 515F-Y, reverse: 926R) were first presented in [Parada et al. 2015](https://doi.org/10.1111/1462-2920.13023) with 515-Y modified from [Quince et al. 2011](https://doi.org/10.1186/1471-2105-12-38). We note these are identical primers to those used by the [NOAA CalCOFI Ocean Genomics Program](https://www.protocols.io/view/amplicon-library-preparation-bmuck6sw?step=5&comment_id=130454) and the [Fuhrman lab](https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-j8nlkpd1g5r7/v2) albiet with a different chemistry and thermocycling conditions than both. We note that the forward primer is identical to the [Earth Microbiome Project](https://earthmicrobiome.org/protocols-and-standards/16s/), but uses a different reverse primer. The target amplicon size is 336 - 486 base pairs.
 
-This primer set targets microbes (e.g., bacteria, phytoplankton, single celled organisms). Important note, this universal primer also amplifies non-target organisms across the tree of life (e.g., invertebrates, vertebrates). 
+This primer set is universal, amplifying organisms from across the tree of life. However, with the limited DNA quantity of invertebrates/vertebrates in the water column, this primer set effectively targets microbes (e.g., Bacteria, Archaea, phytoplankton, single celled organisms), and is not recommended for monitoring of multicellular organisms.
 
 The protocol presented here is intended as the first PCR of a two-step PCR next generation sequencing library preparation using Illumina Nextera Unique Dual Indices. Our written protocol does not include the second PCR step in which unique library-specific barcodes are attached to each round 1 PCR product. 
 
@@ -232,7 +232,7 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 
 **Positive Control**
 
-A positive control is used in every PCR run to verify success of the PCR reaction. In place of template DNA, 2 μL of positive control diluted to 10^3 copies/µL is used. One well per plate is alotted for the positive control. The positive control used for 16S is Dromedary camel (*Camelus dromedarius*). The reference mitogenome used to develop the positive control sequence can be found on GenBank: [Accession OP378546.1](https://www.ncbi.nlm.nih.gov/nuccore/OP378546.1). We note that this accession had 2 mismatches in the forward primer as well as 1 mistmatch in the reverse primer and thus we modified the positive control to use the exact primer sequence to avoid mismatches.
+A positive control is used in every PCR run to verify success of the PCR reaction. In place of template DNA, 2 μL of positive control diluted to 10^3 copies/µL is used. One well per plate is alotted for the positive control. The positive control used for 16S is Dromedary camel (*Camelus dromedarius*). The reference mitogenome used to develop the positive control sequence can be found on GenBank: [Accession OP378546.1](https://www.ncbi.nlm.nih.gov/nuccore/OP378546.1). We based the positive control off of the 12S gene. The resulting accession had 2 mismatches in the forward primer as well as 1 mistmatch in the reverse primer and thus we modified the positive control to use the exact primer sequence to avoid mismatches.
 
 
 |Positive Control Sequence|
