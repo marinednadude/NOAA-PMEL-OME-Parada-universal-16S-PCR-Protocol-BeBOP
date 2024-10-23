@@ -293,4 +293,4 @@ Nuclease-free water is used as a no template control (NTC) when setting up each 
 2. Quince, C., Lanzen, A., Davenport, R. J., & Turnbaugh, P. J. (2011). Removing noise from pyrosequenced amplicons. BMC bioinformatics, 12(1), 1-18. https://doi.org/10.1186/1471-2105-12-38
 
 ## APPENDIX A: DATASHEETS
-[Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1XM0Ed12dXZTzV0RTxaFrx53AtsadqQ3Q4UFnhtCCJlc/edit?usp=sharing)
+[Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1s7szAHg76gwpfFVI4zRDsZpTAtSnIlmH/edit?gid=627408593#gid=627408593)
