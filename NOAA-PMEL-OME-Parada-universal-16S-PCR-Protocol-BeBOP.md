@@ -1,69 +1,143 @@
+---
+#MIOP terms
+methodology_category: Omics analysis
+project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group protocols
+purpose: PCR [OBI:0000415]
+analyses: PCR [OBI:0000415]
+geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]
+broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine benthic biome [ENVO:01000024]
+environmental_medium: sea water [ENVO:00002149]
+target:  16S rRNA sequencing assay targeting V4-V5 region [EUPATH:0000813],  Bacterial 16S RNA [NCIT:C105370]
+creator: Shannon Brown, Han Weinrich, Zachary Gold
+materials_required: vortexer [OBI:0400118], PCR instrument [OBI:0000989]
+skills_required: sterile technique, pipetting skills, standard molecular technique
+time_required: 210
+personnel_required: 1
+language: en
+issued: 2025-04-30
+audience: scientists
+publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+
+# FAIRe terms
+pcr_0_1: 1
+inhibition_check_0_1: not applicable
+inhibition_check: not applicable
+thermocycler: Applied Biosystems Veriti 96-well thermal cycler
+assay_name: ssu16sv4v5_parada
+assay_validation: The assay has been validated through mutli-step in-silico, in-vitro, and in-situ validations. In addition to repeat analysis with alternate assays and intra/inter species tests. See BeBOP for citations.
+targetTaxonomicAssay: 16S rRNA gene sequencing targeting the V4-V5 region using primers 16S 515F-Y and 16S 926R-Y
+targetTaxonomicScope: universal
+target_gene: 16S rRNA (SSU prokaryote)
+target_subfragment: V4-V5
+ampliconSize: 515-926
+pcr_primer_forward: GTGYCAGCMGCCGCGGTAA
+pcr_primer_reverse: CCGYCAATTYMTTTRAGTTT
+pcr_primer_name_forward: 16S 515F-Y
+pcr_primer_name_reverse: 16S 926R-Y
+pcr_primer_reference_forward: https://doi.org/10.1111/1462-2920.13023
+pcr_primer_reference_reverse: https://doi.org/10.1111/1462-2920.13023
+pcr_primer_vol_forward: 0.75
+pcr_primer_vol_reverse: 0.75
+pcr_primer_conc_forward: 5.0
+pcr_primer_conc_reverse: 5.0
+probeReporter: not applicable
+probeQuencher: not applicable
+probe_seq: not applicable
+probe_ref: not applicable
+probe_conc: not applicable
+commercial_mm: AmpliTaq Gold Fast PCR Master Mix
+custom_mm: PCR reactions were run in 25 uL reaction volumes, with 2 uL of DNA, 10 uL of AmpliTaq Gold, 11.5 uL of water, and 0.75 uL of each primer (5 uM).
+block_seq: not applicable
+block_ref: not applicable
+block_taxa: not applicable
+amplificationReactionVolume: 25
+pcr_dna_vol: 2.0
+pcr_rep: 1.0
+nucl_acid_amp: 
+pcr_cond: initial denaturation:98_0.5;normal_cycling;denaturation:95_0.75;annealing:50_0.75;elongation:68_1.5;final elongation:68_5;30
+annealingTemp: 50
+pcr_cycles: 30
+pcr_analysis_software: missing":" not provided
+pcr_method_additional: Quality was validated via confirmation of a product on a gel.
+---
+
 # NOAA PMEL OME Parada universal 16S PCR Protocol
 
+## PROTOCOL INFORMATION
 
-### Quick Links:
+### Minimum Information about an Omics Protocol (MIOP)
 
-- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure](#STANDARD-OPERATING-PROCEDURE)
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
 
-## Minimum Information about an Omics Protocol (MIOP)
-
-See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
-
-| MIOP Term  | Value |
-| ------------- | ------------- | 
-| methodology category  | omics analysis |
-| project  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program Protocols |
-| purpose  | PCR [OBI:0000415] |
-| analyses  | PCR [OBI:0000415] |
-| geographic location  | North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323] |
-| broad-scale environmental context  | oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine benthic biome [ENVO:01000024] |
-| local environmental context  | oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024] |
-| environmental medium  | sea water [ENVO:00002149] , DNA extraction [OBI:0000257] |
-| target  | 16S rRNA sequencing assay targeting V4-V5 region [EUPATH:0000813],  Bacterial 16S RNA [NCIT:C105370] |
-| creator  | [Shannon Brown](https://github.com/Brown-NOAA), [Han Weinrich](https://github.com/HanWeinrich), and [Zachary Gold](https://github.com/marinednadude) |
-| materials required  | agarose gel electrophoresis system [OBI:0001134] , PCR instrument [OBI:0000989] |
-| skills required  | sterile technique, pipetting skills, and standard molecular technique |
-| time required  | 210 |
-| personnel required  | 1 |
-| language  | en |
-| issued  | 2024-05-30	 |
-| audience  | scientists |
-| publisher  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies |
-| hasVersion  | 1 |
-| license  | CC0 1.0 Universal |
-| maturity level  | mature |
-
---------
-
-
-## AUTHORS
+### Authors
 
 | PREPARED BY | AFFILIATION | ORCID | DATE |
 | ------------- | ------------- | ------------- | ------------- |
-| Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0000-0001-9808-2638 |2024-02-02|
-| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0007-6063-0986 |2024-02-02|
-|Sean McAllister	|Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|0000-0001-6654-3495	|2024-02-02|
-|Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|	0000-0002-4257-0170	|2024-02-02|
-|Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|0000-0003-0490-7630	|2024-02-02|
+| Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0000-0001-9808-2638 |2024-02-01|
+| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0007-6063-0986 |2024-02-01|
+|Sean McAllister	|Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|0000-0001-6654-3495	|2024-02-01|
+|Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|	0000-0002-4257-0170	|2024-02-01|
+|Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|0000-0003-0490-7630	|2024-02-01|
 
+- All authors known to have contributed to the preparation of this protocol should be listed, including those who filled in the template.
+- Visit <https://orcid.org/> to register for an ORCID.
 
--------------
+#### Internal Protocols
 
-## RELATED PROTOCOLS
+| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE |
+| ------------- | ------------ | ------------ | ------------ |
+| OME Gel electrophoresis protocol (in progress)  | TBD | 0.0| TBD |
 
-| PROTOCOL NAME | LINK  | VERSION | RELEASE DATE|
-| ------------- | ------------- | ------------- | ------------- |
+#### External Protocols
+
+| PROTOCOL NAME | LINK | VERSION | RELEASE DATE |
+| --------- | --------------------- | ------- | ------------ |
 | Environmental DNA (eDNA) 16S metabarcoding Illumina MiSeq NGS PCR Protocol V.2| https://mbari-bog.github.io/MBON-Protocols/eDNA_16S_PCR_V3.html | V2 | 2021-11-01 |
 
+### Protocol Revision Record
 
+| VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
+| ------------- | ------------- | ------------- |
+| 1.0.0 | 2024-02-01 | Initial release |
+| 1.1.0 | 2025-04-30 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 
----
-# BACKGROUND
+- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+- Release date is the date when a given protocol version was finalised.
+- Description of revisions includes a brief description of what was changed relative to the previous version.
 
-## Summary
+### Acronyms and Abbreviations
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+|16S v4 rRNA |16S ribosomal nucleic acid sequencing assay targeting V4 gene region|
+|BSC	|Biosafety cabinet|
+|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+|eDNA	|environmental DNA|
+|EtOH| Ethanol|
+|IDT| Integrated DNA Technologies
+|MBARI| Monterey Bay Aquarium Research Institute|
+|MBON	|Marine Biodiversity Observation Network|
+|NOAA|National Oceanic and Atmospheric Administration|
+|NTC	|No template control
+|OME	|Ocean Molecular Ecology
+|PCR| Polymerase chain reaction |
+|PMEL	|Pacific Marine Environmental Laboratory|
+|PPE    | Personal protective equipment |
+|UW| University of Washington
+|WC-OBON|West Coast Ocean Biomolecular Observing Network|
+
+### Glossary
+
+| Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step. |
+| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step. |
+| No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
+| Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
+
+## BACKGROUND
+
+### Summary
 
 This protocol is for amplifying the 16S rRNA v4-v5 region. The primers (forward: 515F-Y, reverse: 926R) were first presented in [Parada et al. 2015](https://doi.org/10.1111/1462-2920.13023) with 515-Y modified from [Quince et al. 2011](https://doi.org/10.1186/1471-2105-12-38). We note these are identical primers to those used by the [NOAA CalCOFI Ocean Genomics Program](https://www.protocols.io/view/amplicon-library-preparation-bmuck6sw?step=5&comment_id=130454) and the [Fuhrman lab](https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-j8nlkpd1g5r7/v2) albiet with a different chemistry and thermocycling conditions than both. We note that the forward primer is identical to the [Earth Microbiome Project](https://earthmicrobiome.org/protocols-and-standards/16s/), but uses a different reverse primer. The target amplicon size is 336 - 486 base pairs.
 
@@ -71,35 +145,34 @@ This primer set is universal, amplifying organisms from across the tree of life.
 
 The protocol presented here is intended as the first PCR of a two-step PCR next generation sequencing library preparation using Illumina Nextera Unique Dual Indices. Our written protocol does not include the second PCR step in which unique library-specific barcodes are attached to each round 1 PCR product. 
 
-## Method description and rationale
+### Method description and rationale
 
 This protocol was chosen because it has been widely and historically used by the Monterey Bay Aquarium Research Institute (MBARI), a leader in the field of eDNA research and an important partner in the Marine Biodiversity Observation Network (MBON) and West Coast Ocean Biomolecular Observing Network (WC-OBON), to generate marine eDNA time series. Our protocol uses the same primers, polymerase, and thermocycling conditions as MBARI and MBON. We intentionally chose this protocol to promote standardization of ocean biomolecular observations and easily facilitate integration of PMEL OME eDNA data with MBARI and MBON eDNA time series.
 
 This amplification protocol is accessible to most molecular biology labs.
 
-## Spatial coverage and environment(s) of relevance
+### Spatial coverage and environment(s) of relevance
 
 This protocol has been used to amplify extracted DNA from thousands of filtered sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf). 
 
-## Personnel Required
+### Personnel Required
 
 One person with molecular biology experience.
 
-## Safety
+### Safety
 
 This protocol does not involve any hazardous chemicals, although standard precautions including wearing PPE should be taken to avoid skin and eye exposure to chemical reagents.
 
-## Training requirements
+$## Training requirements
 
 Molecular biology training (including, at a minimum, sterile technique, pipetting small volumes, and programming and running PCR thermocyclers) is required to conduct this protocol.
 
-## Time required to execute the procedure
+### Time required to execute the procedure
 
 PCR preparation and running the PCR protocol for a single 96-well plate takes 3.5 hours (210 minutes), 120 mins of which is the thermocycler run time. Additional plates can be run simultaneously without greatly increasing the time required. 
 
------
-# EQUIPMENT
-
+## EQUIPMENT
+For a 96-well Plate:
 
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -150,20 +223,24 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 | 70% EtOH | Molecular grade ethanol| Generic | 20 | (mL)|
 | 10% bleach| Hypochlorite bleach |Clorox| 10 |(mL) Remake every ~5 days as bleach decomposes quickly at 10% concentration. |
 
-------
-# STANDARD OPERATING PROCEDURE
+- Description: E.g., "filter".
+- Product Name and Model: Provide the official name of the product.
+- Manufacturer: Provide the name of the manufacturer of the product.
+- Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
+- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
 
-### Preparation
+## STANDARD OPERATING PROCEDURE
 
+###Protocol
 
-**Before PCR Setup:**
+#### Preparation
 
 1. Sterilize workspaces and durable equipment, including pipettes within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH.
 4. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. 
 5. Run the UV light in the BSC for 30 minutes before starting work.
 6. Label all PCR plates both on the side of the plate and on the top of the foil (in the plate margins). Recommended labeling scheme includes plate name, primer, date of PCR and personnel initials.
 
-### PCR
+#### PCR
 
 **Primer Sequences without Adapters**(not used): PCR primer sequences 
 (**target sequence bolded**)
@@ -192,6 +269,7 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 | Template DNA|N/A| 2 | 100%|8% |
 | **Total**|**2392**| **25** | **N/A** |**N/A**|
 
+This table breaks down the mixture per plate and per reaction. When running full plates (96-wells), each reagent volume was multipled by 104 (96+8 extra sample volumes to account for pipetting error) when preparing the final master mix.
 
 **PCR Cycling Program**: 
 
@@ -220,8 +298,7 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 10. Spin down the plate, and then transport in cooler blocks before placing in thermocycler.
 14.  Run thermocycler protocol.
 
-
-## Quality control
+### Quality control
 
 1. Plates should be removed from the thermocycler  after the run completes and stored at 4°C until run on a gel. Storing the PCR product at -20˚C is ideal for 1-6 month term storage, while -80˚C is ideal for long-term storage.
 2. Run gel visualization to confirm successful PCR. [NOAA-PMEL-OME-GelVisualization-Protocol pending]
@@ -230,18 +307,15 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 
 A positive control is used in every PCR run to verify success of the PCR reaction. In place of template DNA, 2 μL of positive control diluted to 10^3 copies/µL is used. One well per plate is alotted for the positive control. The positive control used for 16S is Dromedary camel (*Camelus dromedarius*). The reference mitogenome used to develop the positive control sequence can be found on GenBank: [Accession OP378546.1](https://www.ncbi.nlm.nih.gov/nuccore/OP378546.1). We based the positive control off of the 12S gene. The resulting accession had 2 mismatches in the forward primer as well as 1 mistmatch in the reverse primer and thus we modified the positive control to use the exact primer sequence to avoid mismatches.
 
-
 |Positive Control Sequence|
 |--------------------------|
 |AGGGCCGGTAAATTTCGTGCCAGCCGCCGCGGTAATACGATTAGCCCGAATTAATGGAAATCCGGCGTAAAGCGTGTTAATGAGTAACTAATAAATAGAGTTAAGTCTTGGCCAGGATGTAAAAATCTATGACCAACGTAAAAATAAACTACGAAAGTGACCCTAATACGATCTGCTACACGACAGCTAAGACCCAAACTGGGATTAGATACCCCACTATGCTCAGCCTTAAACCTAAGTGATTATAACAACAAAATCACTCGCCAGAGTACTACTAGCAACAGCTTAAAACTCAAAGGAATTGGCGGTGCTTCATACCCCCTAGAGG|
-
-
 
 **Negative Control**
 
 Nuclease-free water is used as a no template control (NTC) when setting up each PCR plate. One well per plate is alloted to a NTC. NTCs should be run in addition to both field blanks and extraction blanks.
 
-## Basic troubleshooting guide
+### Basic troubleshooting guide
 
 **Issue 1**: Streaking is observed for sample wells in gel but positive control band appears normal. 
 
@@ -254,38 +328,6 @@ Nuclease-free water is used as a no template control (NTC) when setting up each 
 **Issue 3**: Band observed in no template control.
 
 **Solution**: The PCR was likely contaminated. Sterilize lab space thoroughly and rerun with new aliquots of reagents.
-
-
-## ACRONYMS AND ABBREVIATIONS
-
-| ACRONYM / ABBREVIATION | DEFINITION |
-| ------------- | ------------- |
-|eDNA	|environmental DNA|
-|PCR| Polymerase chain reaction |
-|PPE    | Personal protective equipment |
-|EtOH| Ethanol|
-|16S v4 rRNA |16S ribosomal nucleic acid sequencing assay targeting V4 gene region|
-|RNA| ribosomal nucleic acid|
-|IDT| Integrated DNA Technologies
-|NTC	|No template control
-|BSC	|Biosafety cabinent
-|OME	|Ocean Molecular Ecology
-|PMEL	|Pacific Marine Environmental Laboratory
-|NOAA|National Oceanic and Atmospheric Administration
-|UW| University of Washington
-|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-|MBON	|Marine Biodiversity Observation Network|
-|MBARI| Monterey Bay Aquarium Research Institute|
-|WC-OBON|West Coast Ocean Biomolecular Observing Network|
-
-## GLOSSARY
-
-| SPECIALISED TERM | DEFINITION |
-| ------------- | ------------- |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
-| Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step.  |
-| No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
-| Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
 ## REFERENCES
 
