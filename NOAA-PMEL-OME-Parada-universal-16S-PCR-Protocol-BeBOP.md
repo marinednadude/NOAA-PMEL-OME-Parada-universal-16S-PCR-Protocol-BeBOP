@@ -258,7 +258,7 @@ For a 96-well Plate:
 |16S Microbial - Nex - F| Forward | TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG**GTGYCAGCMGCCGCGGTAA** |
 |16S Microbial - Nex - R | Reverse |GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG**CCGYCAATTYMTTTRAGTTT**  |
 
-**Reaction Mixture**: PCR reagents, volumes, initial and final concentrations
+**Reaction Mixture**: **Reaction Mixture**: PCR reagents, volumes, initial, and final concentrations
 
 | Reagent |Volume (μL) per plate| Volume (μL) per reaction | Intial concentration| Final concentration|
 | ----- | ----- | ----- |----- |-----|
