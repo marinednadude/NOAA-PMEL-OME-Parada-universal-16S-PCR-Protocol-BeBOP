@@ -29,8 +29,8 @@ assay_validation: The assay has been validated through mutli-step in-silico, in-
 targetTaxonomicAssay: 16S rRNA gene sequencing targeting the V4-V5 region using primers 16S 515F-Y and 16S 926R-Y
 targetTaxonomicScope: universal
 target_gene: 16S rRNA (SSU prokaryote)
-target_subfragment: V4-V5
-ampliconSize: 515-926
+target_subfragment: V4-V5 (515-926)
+ampliconSize: 336-486
 pcr_primer_forward: GTGYCAGCMGCCGCGGTAA
 pcr_primer_reverse: CCGYCAATTYMTTTRAGTTT
 pcr_primer_name_forward: 16S 515F-Y
