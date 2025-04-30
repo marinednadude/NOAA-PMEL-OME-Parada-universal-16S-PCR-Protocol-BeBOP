@@ -130,6 +130,8 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 ### Glossary
 
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
 | Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step. |
 | Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step. |
 | No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
