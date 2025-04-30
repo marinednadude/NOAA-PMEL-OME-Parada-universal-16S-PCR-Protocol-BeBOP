@@ -244,7 +244,7 @@ For a 96-well Plate:
 
 #### PCR
 
-**Primer Sequences without Adapters** 
+**Primer Sequences without Adapters**: PCR primer sequences (target sequence bolded)  
 
 | PCR Primer Name | Direction | Sequence (5’ -> 3’)|
 | ----- | ----- | ----- |
