@@ -165,7 +165,7 @@ One person with molecular biology experience.
 
 This protocol does not involve any hazardous chemicals, although standard precautions including wearing PPE should be taken to avoid skin and eye exposure to chemical reagents.
 
-$## Training requirements
+### Training requirements
 
 Molecular biology training (including, at a minimum, sterile technique, pipetting small volumes, and programming and running PCR thermocyclers) is required to conduct this protocol.
 
@@ -244,9 +244,7 @@ For a 96-well Plate:
 
 #### PCR
 
-**Primer Sequences without Adapters**(not used): PCR primer sequences 
-(**target sequence bolded**)
-
+**Primer Sequences without Adapters** 
 
 | PCR Primer Name | Direction | Sequence (5’ -> 3’)|
 | ----- | ----- | ----- |
