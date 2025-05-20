@@ -73,7 +73,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 - MIOP terms are listed in the YAML frontmatter of this page.
 - See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
-- 
+  
 ### Making eDNA FAIR (FAIRe)
 
 - FAIRe terms are listed in the YAML frontmatter of this page.
