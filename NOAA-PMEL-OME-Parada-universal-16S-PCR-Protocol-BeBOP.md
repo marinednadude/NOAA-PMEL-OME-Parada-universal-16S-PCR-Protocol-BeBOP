@@ -50,7 +50,7 @@ probe_seq: not applicable
 probe_ref: not applicable
 probe_conc: not applicable
 commercial_mm: AmpliTaq Gold Fast PCR Master Mix
-custom_mm: PCR reactions were run in 25 uL reaction volumes, with 2 uL of DNA, 10 uL of AmpliTaq Gold, 11.5 uL of water, and 0.75 uL of each primer (5 uM).
+custom_mm: PCR reactions were run in 25 μL reaction volumes, with 2 μL of DNA, 10 μL of AmpliTaq Gold, 11.5 μL of water, and 0.75 μL of each primer (5 μM).
 block_seq: not applicable
 block_ref: not applicable
 block_taxa: not applicable
@@ -197,8 +197,8 @@ For a 96-well Plate:
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment**|
 |Pipetter: 1-10 μl|Pipetman P10L|Gilson|1|Can be substituted with any accurate pipettor|
-|Pipetter: 20 - 200 uL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor|
-|Pipetter: 100-1000 uL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor|
+|Pipetter: 20 - 200 μL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor|
+|Pipetter: 100-1000 μL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor|
 |BioSafety II cabinet|Biological safety cabinet (INT-1100A2)|Kewaunee|1|Can be substituted with generic - internal UV light required|
 |Thermocycler|Veriti 96-well thermal cycler |Applied Biosystems| 1|	Can be substituted with generic|
 | Mini-centrifuge | Personal mini centrifuge  | BioExcell | 1 | Can be substituted with generic, but needs to fit 1.5-2.0 mL tubes |
@@ -244,18 +244,16 @@ For a 96-well Plate:
 
 ## STANDARD OPERATING PROCEDURE
 
-### Protocol
-
-#### Preparation
+### Preparation
 
 1. Sterilize workspaces and durable equipment, including pipettes within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH.
 2. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. 
 3. Run the UV light in the BSC for 30 minutes before starting work.
 4. Label all PCR plates both on the side of the plate and on the top of the foil (in the plate margins). Recommended labeling scheme includes plate name, primer, date of PCR, and personnel initials.
 
-#### PCR
+### PCR
 
-**Primer Sequences without Adapters**: PCR primer sequences (target sequence bolded)  
+**Primer Sequences without Adapters**: PCR primer sequences (**target sequence bolded**) 
 
 | PCR Primer Name | Direction | Sequence (5’ -> 3’)|
 | ----- | ----- | ----- |
