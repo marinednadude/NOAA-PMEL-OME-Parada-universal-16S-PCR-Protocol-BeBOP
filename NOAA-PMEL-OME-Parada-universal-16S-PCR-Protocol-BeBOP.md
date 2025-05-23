@@ -66,6 +66,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 ---
 
 # NOAA PMEL OME Parada universal 16S PCR Protocol
+**NOTE: This is NOT THE RECOMMENDED Parada 16S PCR protocol, for the standard OME protocol, see [NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md)**
 
 ## PROTOCOL INFORMATION
 
@@ -148,8 +149,10 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
 ## BACKGROUND
+**NOTE: This is NOT THE RECOMMENDED Parada 16S PCR protocol, for the standard OME protocol, see [NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md)**
 
 ### Summary
+
 
 This protocol is for amplifying the 16S rRNA v4-v5 region. The primers (forward: 515F-Y, reverse: 926R) were first presented in [Parada et al. 2015](https://doi.org/10.1111/1462-2920.13023) with 515-Y modified from [Quince et al. 2011](https://doi.org/10.1186/1471-2105-12-38). We note these are identical primers to those used by the [NOAA CalCOFI Ocean Genomics Program](https://www.protocols.io/view/amplicon-library-preparation-bmuck6sw?step=5&comment_id=130454) and the [Fuhrman lab](https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-j8nlkpd1g5r7/v2) albiet with a different chemistry and thermocycling conditions than both. We note that the forward primer is identical to the [Earth Microbiome Project](https://earthmicrobiome.org/protocols-and-standards/16s/), but uses a different reverse primer. The target amplicon size is 336 - 486 base pairs.
 
@@ -243,6 +246,7 @@ For a 96-well Plate:
 | 10% bleach| Hypochlorite bleach |Clorox| 40 mL | Remake every ~5 days as bleach decomposes quickly at 10% concentration |
 
 ## STANDARD OPERATING PROCEDURE
+**NOTE: This is NOT THE RECOMMENDED Parada 16S PCR protocol, for the standard OME protocol, see [NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md)**
 
 ### Preparation
 
