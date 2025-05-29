@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 210
 personnel_required: 1
 language: en
-issued: 2025-04-30
+issued: 2025-05-29
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -103,7 +103,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| OME Gel electrophoresis protocol (in progress)  | Pending | 0.0 | yyyy-mm-dd   | Internal  |
+| NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP  | Pending | 0.0 | yyyy-mm-dd   | Internal  |
 | Environmental DNA (eDNA) 16S metabarcoding Illumina MiSeq NGS PCR Protocol V.2| https://mbari-bog.github.io/MBON-Protocols/eDNA_16S_PCR_V3.html | V2 | 2021-11-01 | External |
 
 ### Protocol Revision Record
@@ -116,6 +116,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2024-02-01 | Initial release |
 | 1.1.0 | 2025-04-30 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
+| 1.1.1 | 2025-05-29 | Minor acronym and content revisions  |
 
 ### Acronyms and Abbreviations
 
@@ -123,7 +124,8 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | ------------- | ------------- |
 |16S v4 rRNA |16S ribosomal nucleic acid sequencing assay targeting V4 gene region|
 |BSC	|Biosafety cabinet|
-|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies|
+|DNA	|Deoxyribonucleic acid|
 |eDNA	|environmental DNA|
 |EtOH| Ethanol|
 |IDT| Integrated DNA Technologies
@@ -143,14 +145,13 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
 | Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step. |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step. |
+| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like a seawater eDNA sample to control for contamination in the field sampling step. |
 | No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
 | Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
 ## BACKGROUND
 
 ### Summary
-
 
 This protocol is for amplifying the 16S rRNA v4-v5 region. The primers (forward: 515F-Y, reverse: 926R) were first presented in [Parada et al. 2015](https://doi.org/10.1111/1462-2920.13023) with 515-Y modified from [Quince et al. 2011](https://doi.org/10.1186/1471-2105-12-38). We note these are identical primers to those used by the [NOAA CalCOFI Ocean Genomics Program](https://www.protocols.io/view/amplicon-library-preparation-bmuck6sw?step=5&comment_id=130454) and the [Fuhrman lab](https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-j8nlkpd1g5r7/v2) albiet with a different chemistry and thermocycling conditions than both. We note that the forward primer is identical to the [Earth Microbiome Project](https://earthmicrobiome.org/protocols-and-standards/16s/), but uses a different reverse primer. The target amplicon size is 336 - 486 base pairs.
 
@@ -299,7 +300,7 @@ This table breaks down the mixture per plate and per reaction. When running full
 
 1. Set out primers and positive control to thaw.
 2. Vortex and spin down thawed positive control, primers, and nuclease free water. Then tap/flick AmpliTaq rather than vortexing before spinning down. Thawed reagents should be stored in a cooling block or fridge when not in use.
-3. Pool reagents to make final master mix, as denoted in above in reagent mixture table.
+3. Pool reagents to make final master mix, as denoted in the reagent mixture table.
 4. Set out template DNA to thaw if frozen.
 5. Aliquot 23 μL of final master mix into each well of the PCR plate. The plate should sit in a cold block to ensure the reagents remain at a low temperature.
 6. Add 2 μL DNA template to each well (See [Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1GiYxSuAibLr0o4OulZFxdJbhuhW9fhLBwIDK_UkXR90/edit?usp=sharing)), but reserve two wells for the positive control and a no template control (NTC). 
