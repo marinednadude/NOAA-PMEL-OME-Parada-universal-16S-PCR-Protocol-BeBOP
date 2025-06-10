@@ -123,7 +123,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
-|16S v4 rRNA |16S ribosomal nucleic acid sequencing assay targeting V4 gene region|
+|16S v4v5 rRNA |16S ribosomal nucleic acid sequencing assay targeting V4-V5 gene region|
 |BSC	|Biosafety cabinet|
 |CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies|
 |DNA	|Deoxyribonucleic acid|
@@ -155,7 +155,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 ### Summary
 
-This protocol is for amplifying the 16S rRNA v4-v5 region. The primers (forward: 515F-Y, reverse: 926R) were first presented in [Parada et al. 2015](https://doi.org/10.1111/1462-2920.13023) with 515-Y modified from [Quince et al. 2011](https://doi.org/10.1186/1471-2105-12-38). We note these are identical primers to those used by the [NOAA CalCOFI Ocean Genomics Program](https://www.protocols.io/view/amplicon-library-preparation-bmuck6sw?step=5&comment_id=130454) and the [Fuhrman lab](https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-j8nlkpd1g5r7/v2) albiet with a different chemistry and thermocycling conditions than both. We note that the forward primer is identical to the [Earth Microbiome Project](https://earthmicrobiome.org/protocols-and-standards/16s/), but uses a different reverse primer. The target amplicon size is 336 - 486 base pairs.
+This protocol is for amplifying the 16S rRNA v4v5 region. The primers (forward: 515F-Y, reverse: 926R) were first presented in [Parada et al. 2015](https://doi.org/10.1111/1462-2920.13023) with 515-Y modified from [Quince et al. 2011](https://doi.org/10.1186/1471-2105-12-38). We note these are identical primers to those used by the [NOAA CalCOFI Ocean Genomics Program](https://www.protocols.io/view/amplicon-library-preparation-bmuck6sw?step=5&comment_id=130454) and the [Fuhrman lab](https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-j8nlkpd1g5r7/v2) albiet with a different chemistry and thermocycling conditions than both. We note that the forward primer is identical to the [Earth Microbiome Project](https://earthmicrobiome.org/protocols-and-standards/16s/), but uses a different reverse primer. The target amplicon size is 336 - 486 base pairs.
 
 This primer set is universal, amplifying organisms from across the tree of life. However, with the limited DNA quantity of invertebrates/vertebrates in the water column, this primer set effectively targets microbes (e.g., Bacteria, Archaea, phytoplankton, single celled organisms), and is not recommended for monitoring of multicellular organisms.
 
