@@ -117,7 +117,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | 1.0.0 | 2024-02-01 | Initial release |
 | 1.1.0 | 2025-04-30 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 | 1.1.1 | 2025-05-29 | Minor acronym and content revisions |
-| 1.2.0 | 2025-06-10 | Adding Gel Electrophoresis Protocol, new acronym, and updated reaction mixture concentration |
+| 1.2.0 | 2025-06-10 | Adding Gel Electrophoresis protocol, new acronym, and updated reaction mixture concentration |
 
 ### Acronyms and Abbreviations
 
