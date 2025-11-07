@@ -329,7 +329,7 @@ Nuclease-free water is used as a no-template control (NTC) when setting up each 
 
 ### Basic Troubleshooting Guide
 
-**Issue 1**: Streaking is observed for sample wells in the gel, but the positive control band appears normal. 
+***Issue 1**: Streaking is observed for sample wells in the gel, but the positive control band appears normal. 
 
 **Solution**: Dilute the sample DNA to a 1:10 dilution with nuclease-free water. If smearing is still observed using a 1:10 dilution, dilute the DNA samples further to a 1:100 dilution. If the samples do not amplify under these conditions, the sample is likely inhibited or has too little target DNA and thus is unlikely to yield valuable results. Alternative solutions include cleaning DNA extractions with a commercial cleanup kit.
 
@@ -344,6 +344,14 @@ Nuclease-free water is used as a no-template control (NTC) when setting up each 
 **Issue 4**: Band observed for either the field blank or the extraction blank.
 
 **Solution**: The product should be sent for sequencing to determine the severity of contamination.
+
+**Issue 5**: Low volume post-PCR
+
+**Solution**: If using strip-caps, ensure they are tightly fitting on wells. Any gap in the lid will allow for some volume to evaporate during the PCR process on the thermal cycler. If using PCR plate seals, spin down the plate after taking it off the thermal cycler to ensure all condensation is drawn back into the well.
+
+**Issue 6**: Weak Amplification
+
+**Solution**: If there are weak amplification bands on the gel, ensure the master mix and DNA are being fully mixed. You can also increase the concentration of primers or tweak the PCR process on the thermal cycler (increasing # of cycles of PCR or optimizing the annealing temperature).
 
 ## REFERENCES
 
