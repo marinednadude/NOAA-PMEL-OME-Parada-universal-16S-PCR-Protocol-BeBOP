@@ -15,10 +15,10 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 210
 personnel_required: 1
 language: en
-issued: 2025-11-06
+issued: 2025-11-14
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-hasVersion: 1
+hasVersion: 1.2.1
 license: CC0 1.0 Universal
 maturity level: mature
 
@@ -118,7 +118,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | 1.1.0 | 2025-04-30 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 | 1.1.1 | 2025-05-29 | Minor acronym and content revisions |
 | 1.2.0 | 2025-06-10 | Adding Gel Electrophoresis protocol, new acronym, and updated reaction mixture concentrations |
-| 1.2.1 | 2025-11-06 | Clarified safety guidelines, added freshwater reference, and negative control language |
+| 1.2.1 | 2025-11-14 | Clarified safety guidelines, added freshwater reference, and negative control language |
 
 ### Acronyms and Abbreviations
 
