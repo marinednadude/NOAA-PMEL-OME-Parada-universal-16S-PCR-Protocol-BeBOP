@@ -1,6 +1,6 @@
 # NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11398128.svg)](https://doi.org/10.5281/zenodo.11398128)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17611941.svg)](https://doi.org/10.5281/zenodo.17611941)
 
 See [NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md) for detailed protocol.  
 
